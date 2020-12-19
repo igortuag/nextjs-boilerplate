@@ -24,6 +24,7 @@
     ]
   },
   "dependencies": {
+    "@storybook/addon-knobs": "^6.1.11",
     "jest-styled-components": "^7.0.3",
     "next": "10.0.3",
     "react": "17.0.1",
