@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.main`
   align-items: center;
   background-color: #06092b;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -11,10 +11,10 @@ export const Wrapper = styled.main`
   padding: 3rem;
   text-align: center;
   width: 100%;
-  margin-bottom: 2rem;
 `
 
 export const Logo = styled.img`
+  margin-bottom: 2rem;
   width: 25rem;
 `
 
@@ -29,5 +29,5 @@ export const Description = styled.h2`
 
 export const Illustration = styled.img`
   margin-top: 3rem;
-  width: min(30rem, 100%)
+  width: min(30rem, 100%);
 `
